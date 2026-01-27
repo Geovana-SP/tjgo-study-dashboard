@@ -14,13 +14,13 @@ import { CheckCircle2, Clock, BookMarked } from "lucide-react";
  */
 export default function Home() {
   const weekDays = [
-    { day: "Segunda", subjects: ["Português", "Dir. Constitucional"], sessions: 2 },
-    { day: "Terça", subjects: ["Dir. Administrativo", "Pós-Graduação"], sessions: 2 },
-    { day: "Quarta", subjects: ["Dir. Penal", "Português"], sessions: 2 },
-    { day: "Quinta", subjects: ["Dir. Processual", "Pós-Graduação"], sessions: 2 },
-    { day: "Sexta", subjects: ["Legislação TJGO", "Dir. Const/Adm"], sessions: 2 },
-    { day: "Sábado", subjects: ["Simulado Completo", "Jurisprudência"], sessions: 2 },
-    { day: "Domingo", subjects: ["Revisão Geral", "Planejamento"], sessions: 2 },
+    { day: "Segunda", subjects: ["Direito Processual Civil", "Língua Portuguesa"], sessions: 2 },
+    { day: "Terça", subjects: ["Direito Constitucional", "Direito Penal (Parte Geral)"], sessions: 2 },
+    { day: "Quarta", subjects: ["Direito Processual Penal", "Direito Administrativo"], sessions: 2 },
+    { day: "Quinta", subjects: ["Direito Civil (Parte Geral)", "Direito Processual Civil"], sessions: 2 },
+    { day: "Sexta", subjects: ["Direito Administrativo", "Direito Constitucional"], sessions: 2 },
+    { day: "Sábado", subjects: ["Geo-História de Goiás", "Simulado de Questões"], sessions: 2 },
+    { day: "Domingo", subjects: ["Descanso ou Revisão Global", "Planejamento"], sessions: 2 },
   ];
 
   return (
@@ -49,8 +49,8 @@ export default function Home() {
             <h1 className="text-5xl lg:text-6xl font-serif font-bold text-primary-foreground mb-4">
               Sua Jornada para o TJGO
             </h1>
-            <p className="text-lg text-primary-foreground/90 mb-8 max-w-xl">
-              Cronograma personalizado para o cargo de Analista Judiciário. Foco em Português, Direito Constitucional e Legislação Específica.
+            <p className="text-lg text-primary-foreground/90 mb-8 max-w-xl italic">
+              "Seja com Deus como o passarinho que sente tremer o ramo, mas continua a cantar, porque sabe que tem asas." - Dom Bosco
             </p>
             <div className="flex gap-4">
               <Button className="bg-accent hover:bg-accent/90 text-accent-foreground">

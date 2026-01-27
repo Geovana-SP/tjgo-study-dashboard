@@ -16,8 +16,8 @@ export default function Schedule() {
       day: "Segunda",
       date: "20 de janeiro",
       sessions: [
-        { time: "05:00 - 08:00", subject: "Língua Portuguesa", type: "Teoria + Questões", completed: false },
-        { time: "08:00 - 11:00", subject: "Direito Constitucional", type: "Estudo Dirigido", completed: false },
+        { time: "05:00 - 08:00", subject: "Direito Processual Civil", type: "Teoria + Resumo", completed: false },
+        { time: "08:00 - 11:00", subject: "Língua Portuguesa", type: "Questões + Revisão", completed: false },
         { time: "19:00 - 20:00", subject: "Revisão do dia", type: "Questões de Português", completed: false },
       ],
     },
@@ -25,8 +25,8 @@ export default function Schedule() {
       day: "Terça",
       date: "21 de janeiro",
       sessions: [
-        { time: "05:00 - 08:00", subject: "Direito Administrativo", type: "Teoria + Questões", completed: false },
-        { time: "08:00 - 11:00", subject: "Estudo para Pós", type: "Direito Médico", completed: false },
+        { time: "05:00 - 08:00", subject: "Direito Constitucional", type: "Teoria + Resumo", completed: false },
+        { time: "08:00 - 11:00", subject: "Direito Penal (Parte Geral)", type: "Questões + Revisão", completed: false },
         { time: "19:00 - 20:30", subject: "Pós-Graduação", type: "Aula ao vivo", completed: false },
       ],
     },
@@ -34,8 +34,8 @@ export default function Schedule() {
       day: "Quarta",
       date: "22 de janeiro",
       sessions: [
-        { time: "05:00 - 08:00", subject: "Direito Penal", type: "Teoria + Questões", completed: false },
-        { time: "08:00 - 11:00", subject: "Língua Portuguesa", type: "Foco em Gramática", completed: false },
+        { time: "05:00 - 08:00", subject: "Direito Processual Penal", type: "Teoria + Resumo", completed: false },
+        { time: "08:00 - 11:00", subject: "Direito Administrativo", type: "Questões + Revisão", completed: false },
         { time: "19:00 - 20:00", subject: "Revisão", type: "Direito Penal", completed: false },
       ],
     },
@@ -43,8 +43,8 @@ export default function Schedule() {
       day: "Quinta",
       date: "23 de janeiro",
       sessions: [
-        { time: "05:00 - 08:00", subject: "Direito Processual Civil/Penal", type: "Estudo Dirigido", completed: false },
-        { time: "08:00 - 11:00", subject: "Estudo para Pós", type: "Direito Médico", completed: false },
+        { time: "05:00 - 08:00", subject: "Direito Civil (Parte Geral)", type: "Teoria + Resumo", completed: false },
+        { time: "08:00 - 11:00", subject: "Direito Processual Civil", type: "Questões + Revisão", completed: false },
         { time: "19:00 - 20:30", subject: "Pós-Graduação", type: "Aula ao vivo", completed: false },
       ],
     },
@@ -52,8 +52,8 @@ export default function Schedule() {
       day: "Sexta",
       date: "24 de janeiro",
       sessions: [
-        { time: "05:00 - 08:00", subject: "Legislação Específica", type: "TJGO - Lei 20.756/2020", completed: false },
-        { time: "08:00 - 11:00", subject: "Direito Constitucional/Adm", type: "Revisão", completed: false },
+        { time: "05:00 - 08:00", subject: "Direito Administrativo", type: "Teoria + Resumo", completed: false },
+        { time: "08:00 - 11:00", subject: "Direito Constitucional", type: "Questões + Revisão", completed: false },
         { time: "19:00 - 20:00", subject: "Revisão da Semana", type: "Consolidação", completed: false },
       ],
     },
@@ -61,17 +61,17 @@ export default function Schedule() {
       day: "Sábado",
       date: "25 de janeiro",
       sessions: [
-        { time: "05:00 - 09:00", subject: "Simulado Completo", type: "Português + Direito", completed: false },
-        { time: "14:00 - 17:00", subject: "Revisão de Erros", type: "Análise Detalhada", completed: false },
-        { time: "19:00 - 20:00", subject: "Jurisprudência", type: "STF/STJ", completed: false },
+        { time: "05:00 - 08:00", subject: "Geo-História de Goiás (Leve)", type: "Teoria + Resumo", completed: false },
+        { time: "08:00 - 11:00", subject: "Simulado de Questões (Geral)", type: "Questões + Revisão", completed: false },
+        { time: "19:00 - 20:00", subject: "Revisão", type: "Consolidação", completed: false },
       ],
     },
     {
       day: "Domingo",
       date: "26 de janeiro",
       sessions: [
-        { time: "05:00 - 08:00", subject: "Revisão Geral", type: "Flashcards/Mapas", completed: false },
-        { time: "08:00 - 09:30", subject: "Missa", type: "Compromisso Religioso", completed: false },
+        { time: "05:00 - 08:00", subject: "Descanso ou Revisão Global", type: "Livre", completed: false },
+        { time: "08:00 - 11:00", subject: "—", type: "Sem atividades", completed: false },
         { time: "19:00 - 20:00", subject: "Planejamento", type: "Próxima Semana", completed: false },
       ],
     },
@@ -86,7 +86,7 @@ export default function Schedule() {
             Cronograma Semanal
           </h1>
           <p className="text-muted-foreground">
-            Seu plano de estudos personalizado baseado no edital anterior
+            Estudo Pré-Edital
           </p>
         </div>
       </section>
